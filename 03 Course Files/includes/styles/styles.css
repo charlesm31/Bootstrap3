@@ -9,35 +9,77 @@ Course Files: https://github.com/charlesm31/Bootstrap3
 
 */
 
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.fa{
+    padding-right: 5px;
+}
+
+.navbar-right{
+    padding-right: 20px;
+}
 
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
-
+#MainContent{
+    margin-top: 60px;
+}
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
+h1,h2,h3,h4,h5,h6,h7{ margin-top: 0; }
 
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   
-   
-   
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel{ margin-bottom: 20px; }
 
+#myCarousel .item { height: 340px; }
 
+#myCarousel img{ height: 100%; width: 100%;}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+.panel-title{
+    text-align: center;
+    font-weight: 700;
+}
 
+.panel p{ text-align: center; }
+
+.panel img{
+    display: block;
+    margin:  0px auto 10px auto;
+}
+
+#solo{
+    margin-bottom: 0px;
+    margin-right: 13px;
+}
+
+.panel .btn {
+    width: 100%;
+}
+
+
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+footer{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.unstyled{
+    padding-left:0px;
+    list-style: none;
+}
 
 
 /* --------------------------------------
@@ -46,15 +88,15 @@ Course Files: https://github.com/charlesm31/Bootstrap3
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+    #myCarousel .item { height: 310px; }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+    #myCarousel .item { height: 400px; }
 }
