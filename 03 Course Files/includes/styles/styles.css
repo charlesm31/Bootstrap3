@@ -12,74 +12,74 @@ Course Files: https://github.com/charlesm31/Bootstrap3
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-.fa{
+/*.fa{
     padding-right: 5px;
-}
+}*/
 
-.navbar-right{
+/*.navbar-right{
     padding-right: 20px;
-}
+}*/
 
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#MainContent{
+/*#MainContent{
     margin-top: 60px;
-}
+}*/
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
-h1,h2,h3,h4,h5,h6,h7{ margin-top: 0; }
+/*h1,h2,h3,h4,h5,h6,h7{ margin-top: 0; }*/
 
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-#myCarousel{ margin-bottom: 20px; }
+/*#myCarousel{ margin-bottom: 20px; }*/
 
-#myCarousel .item { height: 340px; }
+/*#myCarousel .item { height: 340px; }*/
 
-#myCarousel img{ height: 100%; width: 100%;}
+/*#myCarousel img{ height: 100%; width: 100%;}*/
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-.panel-title{
+/*.panel-title{
     text-align: center;
     font-weight: 700;
-}
+}*/
 
-.panel p{ text-align: center; }
+/*.panel p{ text-align: center; }*/
 
-.panel img{
+/*.panel img{
     display: block;
     margin:  0px auto 10px auto;
-}
+}*/
 
-#solo{
+/*#solo{
     margin-bottom: 0px;
     margin-right: 13px;
-}
+}*/
 
-.panel .btn {
+/*.panel .btn {
     width: 100%;
-}
+}*/
 
 
 
 /* --------------------------------------
    Footer
    -------------------------------------- */
-footer{
+/*footer{
     color: #ffffff;
     font-size: 12px;
     padding: 20px;
-}
+}*/
 
-.unstyled{
+/*.unstyled{
     padding-left:0px;
     list-style: none;
-}
+}*/
 
 
 /* --------------------------------------
@@ -93,10 +93,10 @@ footer{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-    #myCarousel .item { height: 310px; }
+/*    #myCarousel .item { height: 310px; }*/
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-    #myCarousel .item { height: 400px; }
+/*    #myCarousel .item { height: 400px; }*/
 }

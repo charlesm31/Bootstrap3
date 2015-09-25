@@ -17,7 +17,7 @@ $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
     })
 
-    $('#BtnAlertTrigger').click(function () {
-        $('#myAlert').slideToggle("slow");
-    });
+//    $('#BtnAlertTrigger').click(function () {
+//        $('#myAlert').slideToggle("slow");
+//    });
 });
